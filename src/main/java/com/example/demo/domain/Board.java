@@ -14,7 +14,7 @@ import lombok.*;
 @Setter                // 모든 필드의 Setter 메서드 자동 생성
 @NoArgsConstructor     // 파라미터가 없는 기본 생성자 자동 생성
 @AllArgsConstructor    // 모든 필드를 파라미터로 받는 생성자 자동 생성
-@Builder               // 객체 생성을 안전하고 편리하게 해주는 빌더 패턴 적용 (선택사항)
+@Builder               // 객체 생성을 안전하고 편리하게 해주는 빌더 패턴 
 public class Board {
 
     @Id                  // Primary Key (기본키) 지정
@@ -39,6 +39,6 @@ public class Board {
     private String password;
 
 
-    // 이후에 새로운 필드를 추가할 때도 그냥 여기에 선언만 하기
-    // private int viewCount;  <- 추가만 하면 Getter/Setter가 자동으로 적용
+    
+    
 }
